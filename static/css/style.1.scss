@@ -16,4 +16,18 @@ $p_color: #41B0F6;
 
     margin-top: 30px;
     min-height: 600px;
+
+
+    thead {
+        background-color: #cccccc;
+
+    }
+
+    td {
+        vertical-align: top;
+    }
+
+    tr {
+        border-bottom: 1px solid #dddddd;
+    }
 }

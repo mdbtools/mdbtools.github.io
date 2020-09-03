@@ -8,5 +8,11 @@
 .main {
   margin-top: 30px;
   min-height: 600px; }
+  .main thead {
+    background-color: #cccccc; }
+  .main td {
+    vertical-align: top; }
+  .main tr {
+    border-bottom: 1px solid #dddddd; }
 
 /*# sourceMappingURL=style.1.css.map */
