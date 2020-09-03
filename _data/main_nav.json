@@ -1,12 +1,12 @@
 [
   {
     "title": "Home",
-    "url": "index.html",
+    "url": "/",
     "icon": "fa-home"
   },
   {
     "title": "Install",
-    "url": "install.html",
+    "url": "/install/",
     "icon": "fa-arrow-down"
   },
   {
