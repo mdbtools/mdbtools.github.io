@@ -10,8 +10,13 @@
     "icon": "fa-arrow-down"
   },
   {
+    "title": "Utils",
+    "url": "/utils/",
+    "icon": "fa-wrench"
+  },
+  {
     "title": "FAQ",
-    "url": "faq.html",
+    "url": "/faq/",
     "icon": "fa-question-circle"
   },
   {
