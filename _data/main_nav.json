@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Home",
+    "url": "index.html",
+    "icon": "fa-home"
+  },
+  {
+    "title": "Install",
+    "url": "install.html",
+    "icon": "fa-arrow-down"
+  },
+  {
+    "title": "FAQ",
+    "url": "faq.html",
+    "icon": "fa-question-circle"
+  },
+  {
+    "title": "Issues",
+    "url": "https://gitlab.com/mdbtools/mdbtools/issues",
+    "icon": "fa-bug",
+    "target": "github"
+  },
+  {
+    "title": "Code",
+    "url": "https://gitlab.com/mdbtools/mdbtools",
+    "icon": "fa-code",
+    "target": "github"
+  }
+]

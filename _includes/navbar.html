@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" id="mainNav">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMain"
+            aria-controls="navBarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand py-1" href="/"><span id="logo">MDB</span> Tools</a>
+
+    <div class="collapse navbar-collapse" id="navBarMain">
+        <ul class="navbar-nav mr-auto">
+        {% for item in site.data.main_nav %}
+            <li class="nav-item">
+                <a class="nav-link"
+                    {% if item.target %}
+                        target="{{item.target}}"
+                   href="{{ item.url }}"><i class="fa {{item.icon}}"></i> {{ item.title | escape }}
+                    {% else %}
+                        href="{{ page.parent }}{{ item.url }}"><i class="fa {{item.icon}}"></i> {{ item.title | escape }}
+                    {% endif %}
+                    {% if item.target %}<sup>&#8599;</sup>{% endif %}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+
+</nav>

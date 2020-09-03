@@ -1,0 +1,7 @@
+
+# All robots allowed
+User-agent: *
+Disallow:
+
+# Sitemap files
+#Sitemap: https://mdbtools.github.io/sitemap.xml
