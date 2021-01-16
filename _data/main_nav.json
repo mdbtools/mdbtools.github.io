@@ -21,13 +21,13 @@
   },
   {
     "title": "Issues",
-    "url": "https://gitlab.com/mdbtools/mdbtools/issues",
+    "url": "https://github.com/mdbtools/mdbtools/issues",
     "icon": "fa-bug",
-    "target": "github"
+    "target": "github_issues"
   },
   {
     "title": "Code",
-    "url": "https://gitlab.com/mdbtools/mdbtools",
+    "url": "https://github.com/mdbtools/mdbtools",
     "icon": "fa-code",
     "target": "github"
   }
