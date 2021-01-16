@@ -30,5 +30,11 @@
     "url": "https://github.com/mdbtools/mdbtools",
     "icon": "fa-code",
     "target": "github"
+  },
+  {
+    "title": "Dev Docs",
+    "url": "https://mdbtools.gitlab.io/mdbtools",
+    "icon": "fa-book",
+    "target": "dev_docs"
   }
 ]
