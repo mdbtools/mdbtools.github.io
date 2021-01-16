@@ -36,5 +36,11 @@
     "url": "https://mdbtools.gitlab.io/mdbtools",
     "icon": "fa-book",
     "target": "dev_docs"
+  },
+  {
+    "title": "Chat",
+    "url": "https://gitter.im/mdb-tools/community",
+    "icon": "fa-comment",
+    "target": "gitter"
   }
 ]
